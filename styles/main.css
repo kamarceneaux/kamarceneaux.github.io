@@ -1,0 +1,17 @@
+body {
+    background-color: #ede5a6;
+    font-family: "Asap", sans-serif;
+
+}
+
+/* NAVBAR CSS */
+#logo {
+  color: #353D2F;
+  font-weight: bold;
+  font-size: 1.95em;
+}
+
+.reference {
+  font-weight: 400;
+  color: #353D2F;
+}
