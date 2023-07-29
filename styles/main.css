@@ -15,3 +15,46 @@ body {
   font-weight: 400;
   color: #353D2F;
 }
+
+
+
+/*Home Header*/
+.cards  {
+  background-color: #515B3A;
+  padding: 1.5%;
+  border-radius: 15px;
+}
+
+
+#leading-head {
+  font-size: 4.35em;
+  color: whitesmoke;
+}
+
+#header-span {
+  font-weight: bold;
+}
+
+#header-bottom-txt {
+  font-size: 1.15em;
+  color: #E6E6E9;
+}
+
+.image-card {
+  border-radius: 10px;
+  max-width: 100%;
+  
+}
+
+
+/*LARGE SCREENS*/
+@media (min-width: 992px) {
+  #header-bottom-txt {margin-top: 10%;}
+}
+
+/*Medium Screens*/
+@media (max-width: 992px) {
+  #leading-head {font-size: 2.35em;}
+  .image-card {width: 85%; height: 200%;}
+  #header-bottom-txt {margin-top: 4.75%;}
+}
