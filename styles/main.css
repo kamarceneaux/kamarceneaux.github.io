@@ -39,6 +39,27 @@ body {
 #picture-kam {
   border-radius: 3.25%;
 }
+
+.section-dividers {
+  margin-top: 2.5%;
+}
+
+#portfolio-h1 {
+  color: #515B3A;
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+
+
+
+
+
+#contact-header {
+  font-size: 7.25rem;
+  color: #e6e6e9;
+  font-weight: bold;
+}
+
 /*XS DEVICES LIKE PHONES*/
 @media (max-width: 575px){
   #leading-head {font-size: 2.75rem;}
