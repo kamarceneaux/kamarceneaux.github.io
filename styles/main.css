@@ -1,60 +1,69 @@
 body {
     background-color: #ede5a6;
     font-family: "Asap", sans-serif;
-
 }
 
 /* NAVBAR CSS */
 #logo {
-  color: #353D2F;
-  font-weight: bold;
-  font-size: 1.95em;
+    color: #353d2f;
+    font-weight: bold;
+    font-size: 1.95em;
 }
 
 .reference {
-  font-weight: 400;
-  color: #353D2F;
+    font-weight: 400;
+    color: #353d2f;
 }
-
-
 
 /*Home Header*/
-.cards  {
-  background-color: #515B3A;
-  padding: 1.5%;
-  border-radius: 15px;
+.cards {
+    background-color: #515b3a;
+    padding: 1.5%;
+    border-radius: 15px;
 }
 
-
 #leading-head {
-  font-size: 4.35em;
-  color: whitesmoke;
+    font-size: 4.35em;
+    color: whitesmoke;
 }
 
 #header-span {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 #header-bottom-txt {
-  font-size: 1.15em;
-  color: #E6E6E9;
+    font-size: 1.15em;
+    color: #e6e6e9;
 }
 
-.image-card {
-  border-radius: 10px;
-  max-width: 100%;
-  
+#picture-kam {
+  border-radius: 3.25%;
+}
+/*XS DEVICES LIKE PHONES*/
+@media (max-width: 575px){
+  #leading-head {font-size: 2.75rem;}
+  #header-bottom-txt {font-size: 1.05rem;}
 }
 
+/*Small DEVICES LIKE PHONES*/
+@media (min-width: 575.98px) {
+  #leading-head {font-size: 3.5rem;}
+}
 
-/*LARGE SCREENS*/
+/*Medium DEVICES LIKE PHONES*/
+@media (max-width: 991.98px) {
+  #picture-kam {
+    display: none;
+  }
+}
+
 @media (min-width: 992px) {
-  #header-bottom-txt {margin-top: 10%;}
+    .heading {
+        margin: 10px 100px 20px 0;
+    }
+
 }
 
-/*Medium Screens*/
-@media (max-width: 992px) {
-  #leading-head {font-size: 2.35em;}
-  .image-card {width: 85%; height: 200%;}
-  #header-bottom-txt {margin-top: 4.75%;}
+@media (min-width: 1300px){
+  #leading-head {font-size: 4.7rem}
 }
