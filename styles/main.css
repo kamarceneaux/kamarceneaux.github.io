@@ -127,7 +127,8 @@ body {
         display: none;
     }
     #contact-header {
-        font-size: 3.25rem;
+        font-size: 3rem;
+        font-weight: 300;
     }
     #contact-subtext {
         font-size: 1.35rem;
