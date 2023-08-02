@@ -48,7 +48,8 @@ body {
 #portfolio-h1 {
     color: #515b3a;
     font-weight: bold;
-    font-size: 3.5rem;
+    font-size: 4.5rem;
+    margin: 3% 0;;
 }
 
 .img-container {
@@ -70,7 +71,7 @@ body {
 }
 
 .proj-header {
-    font-size: 5.5rem;
+    font-size: 5.15rem;
     font-weight: 600;
     color: #515b3a;
     margin-bottom: 0.25%;
@@ -198,6 +199,7 @@ body {
     }
     .proj-year {font-size: 0.750rem; margin-bottom: 1%;}
     .proj-description {font-size: 0.75rem; margin-bottom: 0.5%;}
+    .proj-addit-icons {font-size: 0.85rem;}
 
   .proj-icons i {
     font-size: 1.25rem;
