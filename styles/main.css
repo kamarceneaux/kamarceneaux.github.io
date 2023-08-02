@@ -40,6 +40,7 @@ body {
     border-radius: 3.25%;
 }
 
+/*PORTFOLIO SECTION*/
 .section-dividers {
     margin-top: 2.5%;
 }
@@ -56,14 +57,54 @@ body {
     align-items: center;
     max-width: 100%;
     max-height: 100%;
-    
+}
+
+.proj-info {
+    text-align: center;
 }
 
 .proj-demos {
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
-    
+}
+
+.proj-header {
+    font-size: 5.5rem;
+    font-weight: 600;
+    color: #515b3a;
+    margin-bottom: 0.25%;
+}
+
+.proj-year {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.proj-icons {
+  text-align: center;
+}
+
+.proj-icons i {
+  margin: 0% 2.5%;
+}
+
+.proj-additional-info {
+  margin: 2.5% 0;
+  padding: 2% 1.5%;
+}
+
+.proj-addit-icons {
+  background-color: white;
+  padding: 1.75% 3.5%;
+  color: black;
+  font-weight: 600;
+  border-radius: 25px;
+  margin: 0 1.25%;
+}
+
+.proj-addit-icons:hover {
+  text-decoration: none;
 }
 
 /*CONTACT INFORMATION*/
@@ -135,7 +176,9 @@ body {
     .icon-btns i {
         font-size: 1.85rem;
     }
-    .img-container {padding: 2% 9% 2% 7%;}
+    .img-container {
+        padding: 2% 9% 2% 7%;
+    }
 }
 
 /*Medium DEVICES LIKE PHONES*/
@@ -150,6 +193,15 @@ body {
     #contact-subtext {
         font-size: 1.35rem;
     }
+    .proj-header {
+        font-size: 2.5rem;
+    }
+    .proj-year {font-size: 0.750rem; margin-bottom: 1%;}
+    .proj-description {font-size: 0.75rem; margin-bottom: 0.5%;}
+
+  .proj-icons i {
+    font-size: 1.25rem;
+  }
 }
 
 @media (min-width: 992px) {
