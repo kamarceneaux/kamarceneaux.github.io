@@ -52,23 +52,28 @@ body {
 
 
 
-
-
+/*CONTACT INFORMATION*/
 #contact-header {
-  font-size: 7.25rem;
+  font-size: 7rem;
   color: #e6e6e9;
   font-weight: bold;
 }
 
-/*XS DEVICES LIKE PHONES*/
-@media (max-width: 575px){
-  #leading-head {font-size: 2.75rem;}
-  #header-bottom-txt {font-size: 1.05rem;}
+#contact-subtext {
+  font-size: 1.55rem;
+  color: #e6e6e9;
 }
 
+#contact-subtext-div {
+  margin: 4% 0;
+}
+
+
 /*Small DEVICES LIKE PHONES*/
-@media (min-width: 575.98px) {
-  #leading-head {font-size: 3.5rem;}
+@media (max-width: 575.98px) {
+  #leading-head {font-size: 3.15rem;}
+  #header-bottom-txt {font-size: 1.05rem;}
+  #contact-subtext-div p {font-size: 1.15rem} 
 }
 
 /*Medium DEVICES LIKE PHONES*/
@@ -76,6 +81,8 @@ body {
   #picture-kam {
     display: none;
   }
+  #contact-header {font-size: 3.25rem;}
+  #contact-subtext {font-size: 1.35rem;}
 }
 
 @media (min-width: 992px) {
