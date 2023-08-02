@@ -196,6 +196,9 @@ body {
         text-align: center;
         font-size: 0.75rem;
     }
+    #portfolio-h1 {
+        font-size: 2.5rem;
+    }
 }
 
 /*Medium DEVICES LIKE PHONES*/
@@ -228,6 +231,7 @@ body {
     .proj-icons i {
         font-size: 1.25rem;
     }
+    
 }
 
 @media (min-width: 992px) {
