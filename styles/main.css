@@ -37,83 +37,111 @@ body {
 }
 
 #picture-kam {
-  border-radius: 3.25%;
+    border-radius: 3.25%;
 }
 
 .section-dividers {
-  margin-top: 2.5%;
+    margin-top: 2.5%;
 }
 
 #portfolio-h1 {
-  color: #515B3A;
-  font-weight: bold;
-  font-size: 3.5rem;
+    color: #515b3a;
+    font-weight: bold;
+    font-size: 3.5rem;
 }
-
-
 
 /*CONTACT INFORMATION*/
 #contact-header {
-  font-size: 7rem;
-  color: #e6e6e9;
-  font-weight: bold;
+    font-size: 7rem;
+    color: #e6e6e9;
+    font-weight: bold;
 }
 
 #contact-subtext {
-  font-size: 1.55rem;
-  color: #e6e6e9;
+    font-size: 1.55rem;
+    color: #e6e6e9;
 }
 
 #contact-subtext-div {
-  margin: 4% 0;
+    margin: 4% 0;
 }
 
 #contact-actions {
-  padding: 2% 0;
+    padding: 2% 0;
 }
 
-.contact-me-btn {
-  text-align: center;
-  color: black;
-  text-decoration: none;
-  border: 3px solid black;
-  padding: 1.5% 6.45%;
-  border-radius: 10px;
-  background-color: white;
-  font-size: 1.75rem;
-  font-weight: bold;
+#contact-me-btn {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    border: 3px solid black;
+    padding: 1.5% 6.45%;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+#contact-me-btn:hover {
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.848);
+    color: black;
+}
+
+.icon-btns i {
+    font-size: 2.5rem;
+    justify-content: center;
+    display: inline-block;
+    width: 50px; /* You can adjust the width and height to change the button size */
+    height: 50px;
+    border-radius: 50%; /* This makes it circular */ 
+    text-align: center;
+    line-height: 50px; /* Vertically centers the content */
+    color: #fff; /* Text color */
+    text-decoration: none; /* Removes underline from anchor tag */
 }
 
 
-.contact-me-btn:hover {
-  text-decoration: none;
-  background-color: rgba(255, 255, 255, 0.848);
-  color: black
-}
 
 /*Small DEVICES LIKE PHONES*/
 @media (max-width: 575.98px) {
-  #leading-head {font-size: 3.15rem;}
-  #header-bottom-txt {font-size: 1.05rem;}
-  #contact-subtext-div p {font-size: 1.15rem} 
+    #leading-head {
+        font-size: 3.15rem;
+    }
+    #header-bottom-txt {
+        font-size: 1.05rem;
+    }
+    #contact-subtext-div p {
+        font-size: 1.15rem;
+    }
+    #contact-me-btn {
+        font-size: 1.35rem;
+        padding: 1.5% 3.5%;
+    }
+    .icon-btns i {font-size: 1.85rem;}
 }
 
 /*Medium DEVICES LIKE PHONES*/
 @media (max-width: 991.98px) {
-  #picture-kam {
-    display: none;
-  }
-  #contact-header {font-size: 3.25rem;}
-  #contact-subtext {font-size: 1.35rem;}
+    #picture-kam {
+        display: none;
+    }
+    #contact-header {
+        font-size: 3.25rem;
+    }
+    #contact-subtext {
+        font-size: 1.35rem;
+    }
 }
 
 @media (min-width: 992px) {
     .heading {
         margin: 10px 100px 20px 0;
     }
-
 }
 
-@media (min-width: 1300px){
-  #leading-head {font-size: 4.7rem}
+@media (min-width: 1300px) {
+    #leading-head {
+        font-size: 4.7rem;
+    }
 }
