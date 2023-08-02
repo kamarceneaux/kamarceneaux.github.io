@@ -50,6 +50,22 @@ body {
     font-size: 3.5rem;
 }
 
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+
+.proj-demos {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    
+}
+
 /*CONTACT INFORMATION*/
 #contact-header {
     font-size: 7rem;
@@ -94,14 +110,12 @@ body {
     display: inline-block;
     width: 50px; /* You can adjust the width and height to change the button size */
     height: 50px;
-    border-radius: 50%; /* This makes it circular */ 
+    border-radius: 50%; /* This makes it circular */
     text-align: center;
     line-height: 50px; /* Vertically centers the content */
     color: #fff; /* Text color */
     text-decoration: none; /* Removes underline from anchor tag */
 }
-
-
 
 /*Small DEVICES LIKE PHONES*/
 @media (max-width: 575.98px) {
@@ -118,7 +132,10 @@ body {
         font-size: 1.35rem;
         padding: 1.5% 3.5%;
     }
-    .icon-btns i {font-size: 1.85rem;}
+    .icon-btns i {
+        font-size: 1.85rem;
+    }
+    .img-container {padding: 2% 9% 2% 7%;}
 }
 
 /*Medium DEVICES LIKE PHONES*/
