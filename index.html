@@ -1,174 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kameron Arceneaux</title>
 
-    <!-- TODO: Update Icon in future -->
     <link rel="icon" href="imgs/ka-color-logo.png" />
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asap:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
-    <script src="https://kit.fontawesome.com/e6c4058ea1.js" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/cd6091137c.js" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/e6c4058ea1.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/cd6091137c.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="styles/main.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <nav class="navbar navbar-expand-lg navbar-light">
-        <!-- COVER LOGO HERE -->
-        <a class="navbar-brand" id="logo">KA</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item header-cover">
-                    <a class="nav-link reference" href="#home">HOME</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">PORTFOLIO</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">CONTACT</a>
-                </li>
-            </ul>
-        </div>
+      <!-- COVER LOGO HERE -->
+      <a class="navbar-brand" id="logo">KA</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item header-cover">
+            <a class="nav-link reference" href="#home">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">CONTACT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="eresume.html">RESUME</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
     <section id="home">
-        <div class="container">
-            <div class="row heading">
-                <div class="cards col-12 col-lg-8">
-                    <h1 id="leading-head">
-                        Hello, I'm <span id="header-span">Kameron</span>, an
-                        aspiring software engineer.
-                    </h1>
-                    <br />
-                    <p id="header-bottom-txt">
-                        I am currently a freshman Computer Science student
-                        at LSU aspiring to pursue a career in the tech
-                        field!
-                    </p>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <img src="imgs/me.png" id="picture-kam" />
-                </div>
-            </div>
+      <div class="container">
+        <div class="row heading">
+          <div class="cards col-12 col-lg-8">
+            <h1 id="leading-head">
+              Hello, I'm <span id="header-span">Kameron</span>, an aspiring
+              software engineer.
+            </h1>
+            <br />
+            <p id="header-bottom-txt">
+              I am currently a freshman Computer Science student at LSU aspiring
+              to pursue a career in the tech field!
+            </p>
+          </div>
+          <div class="col-12 col-lg-4">
+            <img src="imgs/me.png" id="picture-kam" />
+          </div>
         </div>
+      </div>
     </section>
 
     <section id="portfolio" class="section-dividers">
-        <div class="container">
-            <h1 id="portfolio-h1">Portfolio</h1>
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    <div class="img-container">
-                        <img src="imgs/InPocket-Demo.png" alt="" class="proj-demos" />
-                    </div>
-                </div>
-                <div class="col-12 col-md-6">
-                    <h1 class="proj-header proj-info">InPocket</h1>
-                    <p class="proj-info proj-year">2021</p>
-                    <p class="proj-info proj-description">
-                        A desktop application that allows users the ability
-                        to manage his/hers finances using a digital money
-                        log. Features of the application include the ability
-                        to add transactions such as expenses and income
-                        sources, view graphs and statistics related towards
-                        his or hers past financial history, and a
-                        spreadsheet showing history of their logged expenses
-                        or income sources. This project was also awarded
-                        best app in The Congressional App Challenge for
-                        district LA-06 in 2021.
-                    </p>
-                    <div class="proj-icons">
-                        <i class="fa-brands fa-python fa-2xl"></i>
-                        <i class="fa-solid fa-database fa-2xl"></i>
-                    </div>
-                    <div class="proj-additional-info proj-info">
-                        <a href="https://github.com/kamarceneaux/InPocket" class="proj-addit-icons">Code <i
-                                class="fa-brands fa-github fa-xl"></i>
-                        </a>
-                        <a href="https://youtu.be/zKJH-ljp5fQ" class="proj-addit-icons">Demo <i
-                                class="fa-brands fa-youtube fa-xl"></i>
-                        </a>
-                        <a href="https://www.brproud.com/news/local-news/denham-springs-high-school-student-wins-2021-congressional-app-challenge/"
-                            class="proj-addit-icons">News
-                            <i class="fa-solid fa-newspaper fa-xl"></i>
-                        </a>
-                    </div>
-                </div>
+      <div class="container">
+        <h1 id="portfolio-h1">Portfolio</h1>
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <div class="img-container">
+              <img src="imgs/InPocket-Demo.png" alt="" class="proj-demos" />
             </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <h1 class="proj-header proj-info">InPocket</h1>
+            <p class="proj-info proj-year">2021</p>
+            <p class="proj-info proj-description">
+              A desktop application that allows users the ability to manage
+              his/hers finances using a digital money log. Features of the
+              application include the ability to add transactions such as
+              expenses and income sources, view graphs and statistics related
+              towards his or hers past financial history, and a spreadsheet
+              showing history of their logged expenses or income sources. This
+              project was also awarded best app in The Congressional App
+              Challenge for district LA-06 in 2021.
+            </p>
+            <div class="proj-icons">
+              <i class="fa-brands fa-python fa-2xl"></i>
+              <i class="fa-solid fa-database fa-2xl"></i>
+            </div>
+            <div class="proj-additional-info proj-info">
+              <a
+                href="https://github.com/kamarceneaux/InPocket"
+                class="proj-addit-icons"
+                >Code <i class="fa-brands fa-github fa-xl"></i>
+              </a>
+              <a href="https://youtu.be/zKJH-ljp5fQ" class="proj-addit-icons"
+                >Demo <i class="fa-brands fa-youtube fa-xl"></i>
+              </a>
+              <a
+                href="https://www.brproud.com/news/local-news/denham-springs-high-school-student-wins-2021-congressional-app-challenge/"
+                class="proj-addit-icons"
+                >News
+                <i class="fa-solid fa-newspaper fa-xl"></i>
+              </a>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <section id="contact" class="section-dividers">
-        <div class="container cards">
-            <h1 id="contact-header">Interested in working together?</h1>
-            <div id="contact-subtext-div">
-                <p id="contact-subtext">
-                    Feel free to reach out for any collaborations or if you
-                    need to get in contact with me!
-                </p>
-            </div>
-            <div id="contact-actions">
-                <a href="mailto:kameron.arceneaux@outlook.com" id="contact-me-btn">Contact Me</a>
-                <a href="https://github.com/kamarceneaux/" class="icon-btns" target="_blank" rel="noopener noreferrer">
-                    <i class="fa-brands fa-github fa-xl"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/kameron-arceneaux-97477a1a8/" class="icon-btns" target="_blank"
-                    rel="noopener noreferrer"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
-                <a href="https://www.instagram.com/developedbykam/" class="icon-btns" target="_blank"
-                    rel="noopener noreferrer">
-                    <i class="fa-brands fa-instagram fa-2xl"></i>
-                </a>
-                <a href="https://twitter.com/SincerelyKammm" class="icon-btns" target="_blank"
-                    rel="noopener noreferrer">
-                    <i class="fa-brands fa-twitter fa-xl"></i>
-                </a>
-            </div>
+      <div class="container cards">
+        <h1 id="contact-header">Interested in working together?</h1>
+        <div id="contact-subtext-div">
+          <p id="contact-subtext">
+            Feel free to reach out for any collaborations or if you need to get
+            in contact with me!
+          </p>
         </div>
+        <div id="contact-actions">
+          <a href="mailto:kameron.arceneaux@outlook.com" id="contact-me-btn"
+            >Contact Me</a
+          >
+          <a
+            href="eresume.html"
+            id="contact-me-btn"
+            onclick="navigateTo('/resume')"
+            >View Resume</a
+          >
+          <a
+            href="https://github.com/kamarceneaux/"
+            class="icon-btns"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa-brands fa-github fa-xl"></i>
+          </a>
+          <a
+            href="www.linkedin.com/in/kameron-arceneaux"
+            class="icon-btns"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="fa-brands fa-linkedin fa-2xl"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/developedbykam/"
+            class="icon-btns"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa-brands fa-instagram fa-2xl"></i>
+          </a>
+        </div>
+      </div>
     </section>
 
     <footer id="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    <p class="bottom-text-left bottom-text">
-                        Website designed/built by Kameron Arceneaux <br />
-                        ©2023 Kameron Arceneaux
-                    </p>
-                </div>
-                <div class="col-12 col-md-6">
-                    <p class="bottom-text-right bottom-text">
-                        Website last updated: August 2nd, 2023
-                        <br />
-                        <a href="https://web.archive.org/web/20230719234935/http://kameronarceneaux.me/" target="_blank"
-                            rel="noopener noreferrer">View old website here!</a>
-                    </p>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <p class="bottom-text-left bottom-text">
+              Website designed/built by Kameron Arceneaux <br />
+              ©2023 Kameron Arceneaux
+            </p>
+          </div>
+          <div class="col-12 col-md-6">
+            <p class="bottom-text-right bottom-text">
+              Website last updated: May 16th, 2024
+              <br />
+              <a
+                href="https://web.archive.org/web/20230719234935/http://kameronarceneaux.me/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >View old website here!</a
+              >
+            </p>
+          </div>
         </div>
+      </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
-        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+      integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
 </html>
