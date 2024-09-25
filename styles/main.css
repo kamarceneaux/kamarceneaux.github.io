@@ -1,247 +1,258 @@
 body {
-    background-color: #ede5a6;
-    font-family: "Asap", sans-serif;
+  background-color: #ede5a6;
+  font-family: "Asap", sans-serif;
 }
 
 /* NAVBAR CSS */
 #logo {
-    color: #353d2f;
-    font-weight: bold;
-    font-size: 1.95em;
+  color: #353d2f;
+  font-weight: bold;
+  font-size: 1.95em;
 }
 
 .reference {
-    font-weight: 400;
-    color: #353d2f;
+  font-weight: 400;
+  color: #353d2f;
 }
 
 /*Home Header*/
 .cards {
-    background-color: #515b3a;
-    padding: 1.5%;
-    border-radius: 15px;
+  background-color: #515b3a;
+  padding: 1.5%;
+  border-radius: 15px;
 }
 
 #leading-head {
-    font-size: 4.35em;
-    color: whitesmoke;
+  font-size: 4.35em;
+  color: whitesmoke;
 }
 
 #header-span {
-    font-weight: bold;
+  font-weight: bold;
 }
 
-#header-bottom-txt {
-    font-size: 1.15em;
-    color: #e6e6e9;
+.header-bottom p {
+  font-size: 1.25em;
+  color: #e6e6e9;
 }
 
 #picture-kam {
-    border-radius: 3.25%;
+  border-radius: 3.25%;
 }
 
 /*PORTFOLIO SECTION*/
 .section-dividers {
-    margin-top: 2.5%;
+  margin-top: 2.5%;
 }
 
 #portfolio-h1 {
-    color: #515b3a;
-    font-weight: bold;
-    font-size: 4.5rem;
-    margin: 3% 0;
+  color: #515b3a;
+  font-weight: bold;
+  font-size: 4.5rem;
+  margin: 3% 0;
 }
 
 .img-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 100%;
-    max-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .proj-info {
-    text-align: center;
+  text-align: center;
+}
+
+.proj-row {
+  margin: 3.5% 0;
 }
 
 .proj-demos {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 }
 
 .proj-header {
-    font-size: 5.15rem;
-    font-weight: 600;
-    color: #515b3a;
-    margin-bottom: 0.25%;
+  font-size: 5.15rem;
+  font-weight: 600;
+  color: #515b3a;
+  margin-bottom: 0.25%;
 }
 
 .proj-year {
-    font-size: 1.5rem;
-    font-weight: 600;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .proj-icons {
-    text-align: center;
+  text-align: center;
 }
 
 .proj-icons i {
-    margin: 0% 2.5%;
+  margin: 0% 2.5%;
 }
 
 .proj-additional-info {
-    margin: 2.5% 0;
-    padding: 2% 1.5%;
+  margin: 2.5% 0;
+  padding: 2% 1.5%;
 }
 
 .proj-addit-icons {
-    background-color: white;
-    padding: 1.75% 3.5%;
-    color: black;
-    font-weight: 600;
-    border-radius: 25px;
-    margin: 0 1.25%;
+  background-color: white;
+  padding: 1.75% 3.5%;
+  color: black;
+  font-weight: 600;
+  border-radius: 25px;
+  margin: 0 1.25%;
 }
 
 .proj-addit-icons:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /*CONTACT INFORMATION*/
 #contact-header {
-    font-size: 7rem;
-    color: #e6e6e9;
-    font-weight: bold;
+  font-size: 4.85rem;
+  color: #e6e6e9;
+  font-weight: bold;
 }
 
 #contact-subtext {
-    font-size: 1.55rem;
-    color: #e6e6e9;
+  font-size: 1.2rem;
+  color: #e6e6e9;
 }
 
 #contact-subtext-div {
-    margin: 4% 0;
+  margin: 4% 0 0;
 }
 
 #contact-actions {
-    padding: 2% 0;
+  padding: 2% 0;
 }
 
 #contact-me-btn {
-    text-align: center;
-    color: black;
-    text-decoration: none;
-    border: 3px solid black;
-    padding: 1.5% 6.45%;
-    border-radius: 10px;
-    background-color: white;
-    font-size: 1.75rem;
-    font-weight: bold;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  border: 3px solid black;
+  padding: 1.5% 6.45%;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 1.75rem;
+  font-weight: bold;
 }
 
 #contact-me-btn:hover {
-    text-decoration: none;
-    background-color: rgba(255, 255, 255, 0.848);
-    color: black;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.848);
+  color: black;
 }
 
 .icon-btns i {
-    font-size: 2.5rem;
-    justify-content: center;
-    display: inline-block;
-    width: 50px; /* You can adjust the width and height to change the button size */
-    height: 50px;
-    border-radius: 50%; /* This makes it circular */
-    text-align: center;
-    line-height: 50px; /* Vertically centers the content */
-    color: #fff; /* Text color */
-    text-decoration: none; /* Removes underline from anchor tag */
+  font-size: 2.5rem;
+  justify-content: center;
+  display: inline-block;
+  width: 50px; /* You can adjust the width and height to change the button size */
+  height: 50px;
+  border-radius: 50%; /* This makes it circular */
+  text-align: center;
+  line-height: 50px; /* Vertically centers the content */
+  color: #fff; /* Text color */
+  text-decoration: none; /* Removes underline from anchor tag */
 }
 
 #footer {
-    margin: 3.5% 0;
+  margin: 3.5% 0;
 }
 
 .bottom-text {
-    font-size: 0.75rem;
+  font-size: 0.75rem;
 }
 
 .bottom-text-right {
-    text-align: right;
+  text-align: right;
 }
 
 /*Small DEVICES LIKE PHONES*/
 @media (max-width: 575.98px) {
-    #leading-head {
-        font-size: 3.15rem;
-    }
-    #header-bottom-txt {
-        font-size: 1.05rem;
-    }
-    #contact-subtext-div p {
-        font-size: 1.15rem;
-    }
-    #contact-me-btn {
-        font-size: 1.35rem;
-        padding: 1.5% 3.5%;
-    }
-    .icon-btns i {
-        font-size: 1.85rem;
-    }
-    .img-container {
-        padding: 2% 9% 2% 7%;
-    }
-    .bottom-text {
-        text-align: center;
-        font-size: 0.75rem;
-    }
-    #portfolio-h1 {
-        font-size: 2.5rem;
-    }
+  #leading-head {
+    font-size: 3.15rem;
+  }
+  #header-bottom-txt {
+    font-size: 1.05rem;
+  }
+  #contact-subtext-div p {
+    font-size: 1rem;
+  }
+  #contact-me-btn {
+    font-size: 1.35rem;
+    padding: 1.5% 3.5%;
+  }
+  .icon-btns i {
+    font-size: 1.85rem;
+  }
+  .img-container {
+    padding: 2% 9% 2% 7%;
+  }
+  .bottom-text {
+    text-align: center;
+    font-size: 0.75rem;
+  }
+  #portfolio-h1 {
+    font-size: 2.5rem;
+  }
+
+  #contact-me-btn {
+    font-size: 0.5rem;
+    padding: 0.5% 0.5%;
+  }
 }
 
 /*Medium DEVICES LIKE PHONES*/
 @media (max-width: 991.98px) {
-    #picture-kam {
-        display: none;
-    }
-    #contact-header {
-        font-size: 3rem;
-        font-weight: 300;
-    }
-    #contact-subtext {
-        font-size: 1.35rem;
-    }
-    .proj-header {
-        font-size: 2.5rem;
-    }
-    .proj-year {
-        font-size: 0.75rem;
-        margin-bottom: 1%;
-    }
-    .proj-description {
-        font-size: 0.75rem;
-        margin-bottom: 0.5%;
-    }
-    .proj-addit-icons {
-        font-size: 0.85rem;
-    }
+  #picture-kam {
+    display: none;
+  }
+  #contact-header {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  #contact-subtext {
+    font-size: 1.15rem;
+  }
+  .proj-header {
+    font-size: 2.5rem;
+  }
+  .proj-year {
+    font-size: 0.75rem;
+    margin-bottom: 1%;
+  }
+  .proj-description {
+    font-size: 0.75rem;
+    margin-bottom: 0.5%;
+  }
+  .proj-addit-icons {
+    font-size: 0.85rem;
+  }
+  .proj-icons i {
+    font-size: 1.25rem;
+  }
 
-    .proj-icons i {
-        font-size: 1.25rem;
-    }
-    
+  #contact-me-btn {
+    font-size: 1.35rem;
+    padding: 1.5% 3.5%;
+    width: 100%;
+  }
 }
 
 @media (min-width: 992px) {
-    .heading {
-        margin: 10px 100px 20px 0;
-    }
-}
+  .heading {
+    margin: 10px 100px 20px 0;
+  }
 
-@media (min-width: 1300px) {
-    #leading-head {
-        font-size: 4.7rem;
-    }
+  #leading-head {
+    font-size: 4.73rem;
+  }
 }
